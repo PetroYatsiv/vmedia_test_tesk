@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "11kdDZGpGplDdQsS3oNbrQu0U94efILShMdDvyBRmFWxnE5SdewuF58PQ5syUhEubf0AdEpZZaqS5EUJF0Ivcg==",
+  "dgSpecHash": "SU4jx4QmLjAFpqVUB+d7vKoSB+h7QFgv8MYZ698ON6xTwVSsIWCF+C05F8Wz1cflvb52A49JgEb71qsPppnKkg==",
   "success": true,
   "projectFilePath": "C:\\LEARN_PROJECTS\\PROXYYY\\Proxy_test\\Proxy_test\\Proxy_test.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Yatsi\\.nuget\\packages\\htmlagilitypack\\1.11.49\\htmlagilitypack.1.11.49.nupkg.sha512"
+  ],
   "logs": []
 }

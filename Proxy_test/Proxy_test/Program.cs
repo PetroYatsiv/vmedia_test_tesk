@@ -1,7 +1,13 @@
+using Proxy_test.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddControllers();  
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<IContentChanger, ContentChanger>();
+builder.Services.AddScoped<IUrlChanger, UrlChanger>();
 
 var app = builder.Build();
 
@@ -20,6 +26,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapControllers();
 app.MapRazorPages();
 
 app.Run();

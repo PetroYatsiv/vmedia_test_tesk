@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Proxy_test.props" />
+</Project>
